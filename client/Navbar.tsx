@@ -1,5 +1,5 @@
 import * as React from 'react';
-// @ts-ignore
+
 import Louisa from './assets/Louisa.jpg';
 import { CommandBar, ICommandBarItemProps, Text } from '@fluentui/react';
 

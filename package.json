@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server",
-    "build": "webpack -w --progress"
+    "build": "webpack -w --progress",
+    "lint": "eslint ./src/*/.{ts,tsx} ./tests/*/.{ts,tsx}",
+    "lint:fix": "eslint --fix ./src/*/.{ts,tsx} ./tests/*/.{ts,tsx}"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,21 @@
     "ts-loader": "^9.2.3",
     "typescript": "^4.3.2",
     "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "eslint": "7.21.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-compat": "3.9.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsdoc": "32.2.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-no-null": "1.0.2",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-webpack-plugin": "^2.5.2",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1"
   },
   "dependencies": {
     "@fluentui/react": "^8.18.0",

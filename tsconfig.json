@@ -16,7 +16,8 @@
       "resolveJsonModule": true
     },
     "include": [
-      "client/**/*"
+      "client/**/*",
+      "./typings/**/*"
     ],
     "exclude": [ "node_modules" ]
   }

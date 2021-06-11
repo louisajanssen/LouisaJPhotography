@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Stack, IStackStyles, IStackTokens, DefaultPalette } from '@fluentui/react';
-// @ts-ignore
+
 import graduatesWalk from './assets/GraduatesWalk.jpg';
-// @ts-ignore
+
 import Louisa from './assets/Louisa.jpg';
-// @ts-ignore
+
 import Jessica from './assets/Jessica.jpg';
 
 const stackStyles: IStackStyles = {

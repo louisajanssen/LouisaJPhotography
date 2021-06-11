@@ -10,6 +10,10 @@ import { Contact } from './Contact';
 export const App: React.FC = () => {
 
     const [renderPage, setRenderPage] = React.useState('Home')
+    const [contactName, setContactName] = React.useState('')
+    const [contactEmail, setContactEmail] = React.useState('')
+    const [contactPhone, setContactPhone] = React.useState('')
+    const [contactMessage, setContactMessage] = React.useState('')
 
     const onHomeClicked = () => {
         setRenderPage('Home')
@@ -21,6 +25,29 @@ export const App: React.FC = () => {
 
     const onContactClicked = () => {
         setRenderPage('Contact')
+    }
+
+    const onNameFieldChange = (name: string) => {
+        setContactName(name)
+    }
+
+    const onEmailFieldChange = (email: string) => {
+        setContactEmail(email)
+    }
+
+    const onPhoneFieldChange = (number: string) => {
+        setContactPhone(number)
+    }
+
+    const onMessageFieldChange = (message: string) => {
+        setContactMessage(message)
+    }
+
+    const onContactSubmitClick = () => {
+        setContactName('')
+        setContactEmail('')
+        setContactPhone('')
+        setContactMessage('')
     }
     
     if (renderPage === 'Home') {
@@ -43,7 +70,7 @@ export const App: React.FC = () => {
         return (
             <div>
                 <Navbar onHomeClicked={onHomeClicked} onPortfolioClicked={onPortfolioClicked} onContactClicked={onContactClicked}/>
-                <Contact />
+                <Contact onNameFieldChange={onNameFieldChange} contactName={contactName} onEmailFieldChange={onEmailFieldChange} contactEmail={contactEmail} onPhoneFieldChange={onPhoneFieldChange} contactPhone={contactPhone} onMessageFieldChange={onMessageFieldChange} contactMessage={contactMessage} onContactSubmitClick={onContactSubmitClick}/>
             </div>
         )
     }
