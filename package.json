@@ -1,0 +1,47 @@
+{
+  "name": "LouisaJPhotography",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "build": "webpack -w --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisajanssen/LouisaJPhotography.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louisajanssen/LouisaJPhotography/issues"
+  },
+  "homepage": "https://github.com/louisajanssen/LouisaJPhotography#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "css-loader": "^5.2.6",
+    "nodemon": "^2.0.7",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.18.0",
+    "@fluentui/react-hooks": "^8.2.2",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-material-ui-carousel": "^2.2.6"
+  }
+}
