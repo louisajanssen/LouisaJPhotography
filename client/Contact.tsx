@@ -19,8 +19,8 @@ export const Contact: React.FC = () => {
             <h2>I'm so excited to hear from you!</h2>
             <p>Are you ready to get your pictures taken? Please don't hesitate to contact me via my email: info@louisajphotography.com, my instagram or the contact box below.</p>
             <TextField label="Name" />
-            <TextField label="Email Address" />
-            <TextField label="Phone Number" />
+            <TextField label="Email Address" placeholder="name@example.com" />
+            <TextField label="Phone Number" placeholder="(---) --- ---" />
             <TextField label="Message" multiline rows={3}/>
             <p style={pStyles}>
               <DefaultButton text="Submit" />

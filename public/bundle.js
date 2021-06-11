@@ -10,6 +10,46 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./client/assets/Camille.jpg":
+/*!***********************************!*\
+  !*** ./client/assets/Camille.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4f49c53288c22a6e69e9.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/Camille.jpg?");
+
+/***/ }),
+
+/***/ "./client/assets/Carolina.jpg":
+/*!************************************!*\
+  !*** ./client/assets/Carolina.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d37d3df862630c7c8bdc.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/Carolina.jpg?");
+
+/***/ }),
+
+/***/ "./client/assets/Eliana.jpg":
+/*!**********************************!*\
+  !*** ./client/assets/Eliana.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8ede2c16be95d4cd5737.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/Eliana.jpg?");
+
+/***/ }),
+
+/***/ "./client/assets/GilmoreGirls.jpg":
+/*!****************************************!*\
+  !*** ./client/assets/GilmoreGirls.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4ffa901bd7d0af80db1b.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/GilmoreGirls.jpg?");
+
+/***/ }),
+
 /***/ "./client/assets/GraduatesWalk.jpg":
 /*!*****************************************!*\
   !*** ./client/assets/GraduatesWalk.jpg ***!
@@ -17,6 +57,16 @@
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"c4f93b1310f4fadeb749.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/GraduatesWalk.jpg?");
+
+/***/ }),
+
+/***/ "./client/assets/Jen.jpg":
+/*!*******************************!*\
+  !*** ./client/assets/Jen.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c29c5df7c3da0c454e6b.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/Jen.jpg?");
 
 /***/ }),
 
@@ -37,6 +87,46 @@ eval("module.exports = __webpack_require__.p + \"8ef4b47294fa2049784a.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"5ef9b76387170b8aad12.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/Louisa.jpg?");
+
+/***/ }),
+
+/***/ "./client/assets/MartaAlan.jpg":
+/*!*************************************!*\
+  !*** ./client/assets/MartaAlan.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"92ce7e2e873b6dbb8973.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/MartaAlan.jpg?");
+
+/***/ }),
+
+/***/ "./client/assets/Phil.jpg":
+/*!********************************!*\
+  !*** ./client/assets/Phil.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"99138fe217f8c3080f0d.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/Phil.jpg?");
+
+/***/ }),
+
+/***/ "./client/assets/PhilChrisHair.jpg":
+/*!*****************************************!*\
+  !*** ./client/assets/PhilChrisHair.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"dbde58bb17f15b2d8541.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/PhilChrisHair.jpg?");
+
+/***/ }),
+
+/***/ "./client/assets/RuthElianaWalk.jpg":
+/*!******************************************!*\
+  !*** ./client/assets/RuthElianaWalk.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"df42673711081f4e132a.jpg\";\n\n//# sourceURL=webpack://LouisaJPhotography/./client/assets/RuthElianaWalk.jpg?");
 
 /***/ }),
 
@@ -2426,7 +2516,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Contact\": () => (/* binding */ Contact)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _fluentui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fluentui/react */ \"./node_modules/@fluentui/react/lib/components/TextField/TextField.js\");\n/* harmony import */ var _fluentui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fluentui/react */ \"./node_modules/@fluentui/react/lib/components/Button/DefaultButton/DefaultButton.js\");\n\n\nconst Contact = () => {\n    const mainDivStyles = {\n        width: 800,\n        paddingLeft: 250,\n        align: 'center'\n    };\n    const pStyles = {\n        paddingTop: 20,\n    };\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { style: mainDivStyles },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", null, \"I'm so excited to hear from you!\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Are you ready to get your pictures taken? Please don't hesitate to contact me via my email: info@louisajphotography.com, my instagram or the contact box below.\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_1__.TextField, { label: \"Name\" }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_1__.TextField, { label: \"Email Address\" }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_1__.TextField, { label: \"Phone Number\" }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_1__.TextField, { label: \"Message\", multiline: true, rows: 3 }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", { style: pStyles },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_2__.DefaultButton, { text: \"Submit\" }))));\n};\n\n\n//# sourceURL=webpack://LouisaJPhotography/./client/Contact.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Contact\": () => (/* binding */ Contact)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _fluentui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fluentui/react */ \"./node_modules/@fluentui/react/lib/components/TextField/TextField.js\");\n/* harmony import */ var _fluentui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fluentui/react */ \"./node_modules/@fluentui/react/lib/components/Button/DefaultButton/DefaultButton.js\");\n\n\nconst Contact = () => {\n    const mainDivStyles = {\n        width: 800,\n        paddingLeft: 250,\n        align: 'center'\n    };\n    const pStyles = {\n        paddingTop: 20,\n    };\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { style: mainDivStyles },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", null, \"I'm so excited to hear from you!\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Are you ready to get your pictures taken? Please don't hesitate to contact me via my email: info@louisajphotography.com, my instagram or the contact box below.\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_1__.TextField, { label: \"Name\" }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_1__.TextField, { label: \"Email Address\", placeholder: \"name@example.com\" }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_1__.TextField, { label: \"Phone Number\", placeholder: \"(---) --- ---\" }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_1__.TextField, { label: \"Message\", multiline: true, rows: 3 }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", { style: pStyles },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_2__.DefaultButton, { text: \"Submit\" }))));\n};\n\n\n//# sourceURL=webpack://LouisaJPhotography/./client/Contact.tsx?");
 
 /***/ }),
 
@@ -2456,7 +2546,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Portfolio\": () => (/* binding */ Portfolio)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nconst Portfolio = () => {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Portfolio\")));\n};\n\n\n//# sourceURL=webpack://LouisaJPhotography/./client/Portfolio.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Portfolio\": () => (/* binding */ Portfolio)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _fluentui_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @fluentui/react */ \"./node_modules/@fluentui/style-utilities/lib/index.js\");\n/* harmony import */ var _fluentui_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @fluentui/react */ \"./node_modules/@fluentui/react/lib/components/Stack/Stack.js\");\n/* harmony import */ var _assets_Jen_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/Jen.jpg */ \"./client/assets/Jen.jpg\");\n/* harmony import */ var _assets_GilmoreGirls_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/GilmoreGirls.jpg */ \"./client/assets/GilmoreGirls.jpg\");\n/* harmony import */ var _assets_Carolina_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/Carolina.jpg */ \"./client/assets/Carolina.jpg\");\n/* harmony import */ var _assets_PhilChrisHair_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/PhilChrisHair.jpg */ \"./client/assets/PhilChrisHair.jpg\");\n/* harmony import */ var _assets_Camille_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/Camille.jpg */ \"./client/assets/Camille.jpg\");\n/* harmony import */ var _assets_RuthElianaWalk_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/RuthElianaWalk.jpg */ \"./client/assets/RuthElianaWalk.jpg\");\n/* harmony import */ var _assets_MartaAlan_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/MartaAlan.jpg */ \"./client/assets/MartaAlan.jpg\");\n/* harmony import */ var _assets_Eliana_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/Eliana.jpg */ \"./client/assets/Eliana.jpg\");\n/* harmony import */ var _assets_Phil_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/Phil.jpg */ \"./client/assets/Phil.jpg\");\n\n\n// @ts-ignore\n\n// @ts-ignore\n\n// @ts-ignore\n\n// @ts-ignore\n\n// @ts-ignore\n\n// @ts-ignore\n\n// @ts-ignore\n\n// @ts-ignore\n\n// @ts-ignore\n\nconst stackStyles = {\n    root: {\n        background: _fluentui_react__WEBPACK_IMPORTED_MODULE_10__.DefaultPalette.white,\n        paddingTop: 15,\n    },\n};\nconst itemAlignmentsStackTokens = {\n    childrenGap: 5,\n    padding: 15,\n};\nconst Portfolio = () => {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack, { horizontal: true, horizontalAlign: \"center\", styles: stackStyles, tokens: itemAlignmentsStackTokens },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_Jen_jpg__WEBPACK_IMPORTED_MODULE_1__, height: \"500\" })),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_Carolina_jpg__WEBPACK_IMPORTED_MODULE_3__, height: \"500\" })),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_GilmoreGirls_jpg__WEBPACK_IMPORTED_MODULE_2__, height: \"500\" }))),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack, { horizontal: true, horizontalAlign: \"center\", styles: stackStyles, tokens: itemAlignmentsStackTokens },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_PhilChrisHair_jpg__WEBPACK_IMPORTED_MODULE_4__, height: \"500\" })),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_Camille_jpg__WEBPACK_IMPORTED_MODULE_5__, height: \"500\" })),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_RuthElianaWalk_jpg__WEBPACK_IMPORTED_MODULE_6__, height: \"500\" }))),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack, { horizontal: true, horizontalAlign: \"center\", styles: stackStyles, tokens: itemAlignmentsStackTokens },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_MartaAlan_jpg__WEBPACK_IMPORTED_MODULE_7__, height: \"500\" })),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_Eliana_jpg__WEBPACK_IMPORTED_MODULE_8__, height: \"500\" })),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fluentui_react__WEBPACK_IMPORTED_MODULE_11__.Stack.Item, null,\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_Phil_jpg__WEBPACK_IMPORTED_MODULE_9__, height: \"500\" })))));\n};\n\n\n//# sourceURL=webpack://LouisaJPhotography/./client/Portfolio.tsx?");
 
 /***/ }),
 
