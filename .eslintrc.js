@@ -92,7 +92,7 @@ module.exports = {
       "no-caller": "error",
   
       // Typescript-ESLINT
-      "@typescript-eslint/no-unused-vars": ["error", { "varsIgnorePattern": "*", "argsIgnorePattern": "*" } ], // Parameters that start with "_" are ok to be unused
+      "@typescript-eslint/no-unused-vars": ["error", { "varsIgnorePattern": "_*", "argsIgnorePattern": "_*" } ], // Parameters that start with "_" are ok to be unused
       "@typescript-eslint/no-empty-function": "off", // I legitimately use empty functions
       "@typescript-eslint/no-empty-interface": "off", // I legitimately use empty interfaces
       "@typescript-eslint/no-inferrable-types": "off", // Ok to have redundant types
