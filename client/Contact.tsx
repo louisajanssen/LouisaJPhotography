@@ -1,5 +1,5 @@
+import { DefaultButton,TextField } from '@fluentui/react';
 import * as React from 'react';
-import { TextField, DefaultButton } from '@fluentui/react';
 
 interface IProps {
     onNameFieldChange: (name: string) => void
@@ -30,8 +30,8 @@ export const Contact: React.FC<IProps> = ({ onNameFieldChange, contactName, onEm
 
     return (
         <div style={mainDivStyles}>
-            <h2>I'm so excited to hear from you!</h2>
-            <p>Are you ready to get your pictures taken? Please don't hesitate to contact me via my email: info@louisajphotography.com, my instagram or the contact box below.</p>
+            <h2>I am so excited to hear from you!</h2>
+            <p>Are you ready to get your pictures taken? Please do not hesitate to contact me via my email: info@louisajphotography.com, my instagram or the contact box below.</p>
             <TextField label="Name" value={contactName} onChange={(event) => onNameFieldChange((event.target as HTMLInputElement).value)}/>
             <TextField label="Email Address" value={contactEmail} placeholder="name@example.com" onChange={(event) => onEmailFieldChange((event.target as HTMLInputElement).value)} />
             <TextField label="Phone Number" value={contactPhone} placeholder="(---) --- ---" onChange={(event) => onPhoneFieldChange((event.target as HTMLInputElement).value)} />

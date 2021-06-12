@@ -1,18 +1,18 @@
+import { CommandBar, ICommandBarItemProps, Text } from '@fluentui/react';
 import * as React from 'react';
 
 import Louisa from './assets/Louisa.jpg';
-import { CommandBar, ICommandBarItemProps, Text } from '@fluentui/react';
 
 interface IProps {
     onHomeClicked: () => void
     onPortfolioClicked: () => void
     onContactClicked: () => void
     }
- 
+
 
 export const Navbar: React.FC<IProps> = ({ onHomeClicked, onPortfolioClicked, onContactClicked }: IProps) => {
 
-    const _items: ICommandBarItemProps[] = [
+    const items: ICommandBarItemProps[] = [
 
       {
         key: 'home',
@@ -22,7 +22,7 @@ export const Navbar: React.FC<IProps> = ({ onHomeClicked, onPortfolioClicked, on
       },
       {
         key: 'portfolio',
-        text: "Portfolio",
+        text: 'Portfolio',
         onClick: onPortfolioClicked,
         style: {background: '#d8d8d8', paddingTop: '10px'}
       },
@@ -33,7 +33,7 @@ export const Navbar: React.FC<IProps> = ({ onHomeClicked, onPortfolioClicked, on
         style: {background: '#d8d8d8', paddingTop: '10px'}
       },
     ];
-  
+
 
     return (
       <div style={{ display: 'flex', width: '100%', height: '50px', cursor: 'pointer', backgroundColor: '#d8d8d8'}}>
@@ -42,7 +42,7 @@ export const Navbar: React.FC<IProps> = ({ onHomeClicked, onPortfolioClicked, on
         <div style={{ flexGrow: 1 }}>
           <CommandBar
             styles={{root: {background: '#d8d8d8'}}}
-            items={_items}
+            items={items}
             ariaLabel="Use left and right arrow keys to navigate between commands"
           />
         </div>

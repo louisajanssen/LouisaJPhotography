@@ -1,9 +1,12 @@
-import * as React from 'react';
 import '../public/App.css';
-import { Navbar } from "./Navbar";
-import { Home } from './Home';
-import { Portfolio } from './Portfolio';
+
+import * as React from 'react';
+
 import { Contact } from './Contact';
+import { sendEmail } from './emailSendingUtilities';
+import { Home } from './Home';
+import { Navbar } from './Navbar';
+import { Portfolio } from './Portfolio';
 
 
 
@@ -48,8 +51,9 @@ export const App: React.FC = () => {
         setContactEmail('')
         setContactPhone('')
         setContactMessage('')
+        sendEmail()
     }
-    
+
     if (renderPage === 'Home') {
         return (
             <div>
@@ -80,3 +84,5 @@ export const App: React.FC = () => {
         )
     }
 }
+
+

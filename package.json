@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server",
     "build": "webpack -w --progress",
-    "lint": "eslint ./client/**/*.tsx",
-    "lint:fix": "eslint --fix ./client/**/*.{tsx,ts}"
+    "lint": "eslint ./client/**/*.{tsx,ts}",
+    "lint:fix": "eslint --fix ./client/**/*.tsx"
   },
   "repository": {
     "type": "git",

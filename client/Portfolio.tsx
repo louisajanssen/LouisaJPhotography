@@ -1,21 +1,22 @@
+import { DefaultPalette,IStackStyles, IStackTokens, Stack } from '@fluentui/react';
 import * as React from 'react';
-import { Stack, IStackStyles, IStackTokens, DefaultPalette } from '@fluentui/react';
-import Jen from './assets/Jen.jpg';
-import GilmoreGirls from './assets/GilmoreGirls.jpg';
-import Carolina from './assets/Carolina.jpg';
-import PhiliChrisHair from './assets/PhilChrisHair.jpg';
+
 import Camille from './assets/Camille.jpg';
-import RuthElianaWalk from './assets/RuthElianaWalk.jpg';
-import MartaAlan from './assets/MartaAlan.jpg';
-import Eliana from './assets/Eliana.jpg';
-import Phil from './assets/Phil.jpg';
-import PhilChristoph from './assets/PhilChristoph.jpg';
-import GirlsGraduate from './assets/GirlsGraduate.jpg';
-import JorgeMartaAlan from './assets/JorgeMartaAlan.jpg';
-import JessicaCamille from './assets/JessicaCamille.jpg';
-import JenGrad from './assets/JenGrad.jpg';
-import Marta from './assets/Marta.jpg';
+import Carolina from './assets/Carolina.jpg';
 import CarolinaMom from './assets/CarolinaMom.jpg';
+import Eliana from './assets/Eliana.jpg';
+import GilmoreGirls from './assets/GilmoreGirls.jpg';
+import GirlsGraduate from './assets/GirlsGraduate.jpg';
+import Jen from './assets/Jen.jpg';
+import JenGrad from './assets/JenGrad.jpg';
+import JessicaCamille from './assets/JessicaCamille.jpg';
+import JorgeMartaAlan from './assets/JorgeMartaAlan.jpg';
+import Marta from './assets/Marta.jpg';
+import MartaAlan from './assets/MartaAlan.jpg';
+import Phil from './assets/Phil.jpg';
+import PhiliChrisHair from './assets/PhilChrisHair.jpg';
+import PhilChristoph from './assets/PhilChristoph.jpg';
+import RuthElianaWalk from './assets/RuthElianaWalk.jpg';
 
 
 const stackStyles: IStackStyles = {
@@ -24,8 +25,8 @@ const stackStyles: IStackStyles = {
       paddingTop: 15,
     },
   };
-  
-  
+
+
   const itemAlignmentsStackTokens: IStackTokens = {
     childrenGap: 5,
     padding: 15,
