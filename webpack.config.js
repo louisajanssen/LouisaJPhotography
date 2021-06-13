@@ -2,7 +2,9 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'client', 'index.tsx'),
+  entry: {
+    louisajphotography: path.resolve(__dirname, 'client', 'index.tsx')
+  },
   plugins:[
     new HtmlWebpackPlugin({
       template: './client/index.html'
