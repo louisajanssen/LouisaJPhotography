@@ -30,7 +30,7 @@ export const Contact: React.FC<IProps> = ({ onNameFieldChange, contactName, onEm
 
     return (
         <div style={mainDivStyles}>
-            <div style={{paddingBottom: '15px'}}>
+            <div style={{paddingBottom: '15px', paddingTop: '15px'}}>
               <Text variant="xLarge" style={{paddingBottom: '25px', fontWeight: 'bold'}}>I am so excited to hear from you!</Text><br/>
             </div>
             <div style={{paddingBottom: '15px'}}>

@@ -1,0 +1,28 @@
+const path = require('path');
+const { merge } = require('webpack-merge')
+const common = require('./common.js')
+const webpack = require('webpack')
+const TerserPlugin = require('terser-webpack-plugin')
+
+module.exports = merge(common(), {
+    mode: 'production',
+    optimization: {
+      minimize: true,
+      minimizer: [
+        new TerserPlugin()
+      ]
+    },
+    plugins: [
+      new webpack.DefinePlugin({
+        '__IsLocal__': false,
+        'process.env': {
+          'NODE_ENV': JSON.stringify('production')
+        }
+      }),
+    ],
+    output: {
+      filename: '[name]_[contenthash].min.js',
+      path: '../dist',
+      // publicPath:
+    },
+  });
