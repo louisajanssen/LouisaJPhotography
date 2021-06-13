@@ -55,5 +55,8 @@ module.exports = env => {
     resolve: {
       extensions: ['.ts', '.tsx', '.js', '.jsx']
     },
+    devServer: {
+      port: 3040 // Take port 8080 or fail (don't silently take 8081)
+    }
   }
 };
