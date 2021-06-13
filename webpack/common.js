@@ -6,7 +6,7 @@ const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin')
 module.exports = env => {
   return {
     entry: {
-      louisajphotography: path.resolve(__dirname, 'client', 'index.tsx')
+      louisajphotography: path.resolve(__dirname, '..', 'client', 'index.tsx')
     },
     plugins:[
       new HtmlWebpackPlugin({
@@ -26,10 +26,6 @@ module.exports = env => {
         ]
       }),
     ],
-    // output: {
-    //   path: path.resolve(__dirname, 'public'),
-    //   filename: 'bundle.js'
-    // },
     module: {
       rules: [
         {

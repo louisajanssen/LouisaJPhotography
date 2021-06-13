@@ -1,4 +1,4 @@
-import '../public/App.css';
+import './App.css';
 
 import * as React from 'react';
 
