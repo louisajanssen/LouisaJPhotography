@@ -64,6 +64,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-material-ui-carousel": "^2.2.6",
+    "script-ext-html-webpack-plugin": "^2.1.5",
     "ts-jest": "^27.0.3"
   }
 }

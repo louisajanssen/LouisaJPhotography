@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
+const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -13,7 +14,16 @@ module.exports = {
     new ESLintPlugin({
       extensions: ['ts','tsx'],
       exclude: ['node_modules', 'test'],
-    })
+    }),
+    new ScriptExtHtmlWebpackPlugin({
+      custom: [
+        {
+          test: /\.js$/,
+          attribute: 'crossorigin',
+          value: 'anonymous'
+        }
+      ]
+    }),
   ],
   output: {
     path: path.resolve(__dirname, 'public'),
