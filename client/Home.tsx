@@ -1,4 +1,4 @@
-import { DefaultPalette,IStackStyles, IStackTokens, Stack } from '@fluentui/react';
+import { Text, DefaultPalette,IStackStyles, IStackTokens, Stack } from '@fluentui/react';
 import * as React from 'react';
 
 import graduatesWalk from './assets/GraduatesWalk.jpg';
@@ -9,6 +9,8 @@ const stackStyles: IStackStyles = {
     root: {
       background: DefaultPalette.white,
       paddingTop: 40,
+      paddingLeft: 150,
+      paddingRight: 150,
     },
   };
 
@@ -22,22 +24,33 @@ export const Home: React.FC = () => {
 
     return (
         <div>
-          <h2>Louisa Janssen Photography</h2>
           <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
             <Stack.Item>
-              <h4>OUTDOOR/ ADVENTURE PHOTOGRAPHY</h4>
-              <p>Whether you are looking to elope or celebrate an engagement, anniversary or just want pictures taken in your favorite spot - I would love to capture your special moment.</p>
-              <img src={Jessica} height="300"></img>
+              <div style={{paddingBottom: '15px'}}>
+                <Text variant="xLarge" style={{fontWeight: 'bold'}} data-testid="outdoor">OUTDOOR/ ADVENTURE PHOTOGRAPHY</Text><br/>
+              </div>
+              <div style={{paddingBottom: '10px'}}>
+                <Text variant="medium">Whether you are looking to elope or celebrate an engagement, anniversary or just want pictures taken in your favorite spot - I would love to capture your special moment.</Text>
+              </div>
+              <img src={Jessica} height="300" />
             </Stack.Item>
             <Stack.Item>
-              <h4>YOUR EVENT/ FAMILY PHOTOGRAPHY</h4>
-              <p>If you are looking to get family pictures taken or for someone to capture your special event, such as baby showers, bridal showers and even your dog&apos;s birthday - feel free to contact me!</p>
-              <img src={graduatesWalk} height="300"></img>
+              <div style={{paddingBottom: '15px'}}>
+                <Text variant="xLarge" style={{paddingBottom: '25px', fontWeight: 'bold'}} data-testid="event">YOUR EVENT/ FAMILY PHOTOGRAPHY</Text><br/>
+              </div>
+              <div style={{paddingBottom: '10px'}}>
+                <Text variant="medium">If you are looking to get family pictures taken or for someone to capture your special event, such as baby showers, bridal showers and even your dog&apos;s birthday - feel free to contact me!</Text>
+              </div>
+              <img src={graduatesWalk} height="300" />
             </Stack.Item>
             <Stack.Item>
-              <h4>BASED IN THE GREATER SEATTLE AREA</h4>
-              <p>My name is Louisa Janssen and I came to the PNW from Germany in 2015. I love the outdoors and all that the PNW has to offer and know all the good spots for beautiful pictures.</p>
-              <img src={Louisa} height="300"></img>
+              <div style={{paddingBottom: '15px'}}>
+                <Text variant="xLarge" style={{paddingBottom: '25px', fontWeight: 'bold'}} data-testid="basedIn">BASED IN THE GREATER SEATTLE AREA</Text><br/>
+              </div>
+              <div style={{paddingBottom: '10px'}}>
+                <Text variant="medium">My name is Louisa Janssen and I came to the PNW from Germany in 2015. I love the outdoors and all that the PNW has to offer and know all the good spots for beautiful pictures.</Text>
+              </div>
+              <img src={Louisa} height="300" />
             </Stack.Item>
           </Stack>
         </div>
