@@ -2626,7 +2626,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sendEmail\": () => (/* binding */ sendEmail)\n/* harmony export */ });\nconst sendEmail = () => {\n    console.log('Email sent!');\n};\n\n\n//# sourceURL=webpack://LouisaJPhotography/./client/emailSendingUtilities.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sendEmail\": () => (/* binding */ sendEmail)\n/* harmony export */ });\nconst sendEmail = () => {\n    // console.log('Email sent!')\n};\n\n\n//# sourceURL=webpack://LouisaJPhotography/./client/emailSendingUtilities.ts?");
 
 /***/ }),
 

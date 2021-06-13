@@ -1,3 +1,3 @@
 export const sendEmail = () => {
-    console.log('Email sent!')
+    // console.log('Email sent!')
 }

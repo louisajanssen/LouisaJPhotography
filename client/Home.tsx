@@ -1,4 +1,4 @@
-import { Text, DefaultPalette,IStackStyles, IStackTokens, Stack } from '@fluentui/react';
+import { DefaultPalette,IStackStyles, IStackTokens, Stack, Text } from '@fluentui/react';
 import * as React from 'react';
 
 import graduatesWalk from './assets/GraduatesWalk.jpg';
