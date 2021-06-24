@@ -26,10 +26,6 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm install
-        working-directory: ./LouisaJPhotography
       - run: npm lint
-        working-directory: ./LouisaJPhotography
       - run: npm test
-        working-directory: ./LouisaJPhotography
       - run: npm build:prod
-        working-directory: ./LouisaJPhotography
