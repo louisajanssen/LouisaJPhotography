@@ -63,7 +63,7 @@ export const Contact: React.FC = () => {
         <Text variant="xLarge" style={{paddingBottom: '25px', fontWeight: 'bold'}}>I am so excited to hear from you!</Text><br/>
       </div>
       <div style={{paddingBottom: '15px'}}>
-        <Text variant="medium">Are you ready to get your pictures taken? Please don&apos;t hesitate to contact me via my email: info@louisajphotography.com, my instagram or the contact box below.</Text>
+        <Text variant="medium">Are you ready to get your pictures taken? Please don&apos;t hesitate to contact me via my email: info@louisajphotography.com, my instagram - louisajphotography - or the contact box below.</Text>
       </div>
       <TextField label="Name" value={contactName} onChange={(_event, value) => onNameFieldChange(value ?? '')}/>
       <TextField label="Email Address" value={contactEmail} placeholder="name@example.com" onChange={(_event, value) => onEmailFieldChange(value ?? '')} />
