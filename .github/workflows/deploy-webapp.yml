@@ -21,11 +21,11 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: Install node and npm
+      - name: Install npm
         uses: actions/setup-node@v2
         with:
           node-version: '12.x'
-      - run: npm i
+      - run: npm install
         working-directory: ./LouisaJPhotography
       - run: npm lint
         working-directory: ./LouisaJPhotography
