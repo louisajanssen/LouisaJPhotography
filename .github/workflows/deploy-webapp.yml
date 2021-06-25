@@ -38,7 +38,7 @@ jobs:
         with:
           azcliversion: 2.0.72
           inlineScript: |
-              az storage blob upload-batch --account-name louisawebdeployment -d 'LouisaJPhotography' -s ./dist
+              az storage blob upload-batch --account-name louisawebdeployment -d 'louisajphotography' -s ./dist
       - name: logout
         run: |
               az logout
