@@ -28,6 +28,6 @@ module.exports = merge(common(), {
     output: {
       filename: '[name]_[contenthash].min.js',
       path: paths.DIST,
-      publicPath: 'https://louisawebdeployment2.azureedge.net/louisajphotography/',
+      publicPath: 'https://louisawebdeployment.azureedge.net/louisajphotography/',
     },
   });
