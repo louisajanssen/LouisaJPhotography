@@ -29,3 +29,17 @@ jobs:
       - run: npm run lint
       - run: npm run test
       - run: npm run build:prod
+      - name: Login to azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Upload to blob storage
+        uses: azure/CLI@v1
+        with:
+          azcliversion: 2.0.72
+          inlineScript: |
+              az storage blob upload-batch --account-name louisawebdeployment -d 'LouisaJPhotography' -s ./dist
+      - name: logout
+        run: |
+              az logout
+        if: always()
