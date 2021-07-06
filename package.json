@@ -68,10 +68,12 @@
     "@material-ui/icons": "^4.11.2",
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "path": "^0.12.7",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-material-ui-carousel": "^2.2.6"
   }

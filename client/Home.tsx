@@ -4,6 +4,7 @@ import * as React from 'react';
 import graduatesWalk from './assets/GraduatesWalk.jpg';
 import Jessica from './assets/Jessica.jpg';
 import Louisa from './assets/Louisa.jpg';
+import { HomeCarousel } from './HomeCarousel';
 
 const stackStyles: IStackStyles = {
     root: {
@@ -24,6 +25,7 @@ export const Home: React.FC = () => {
 
     return (
         <div>
+          <HomeCarousel />
           <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
             <Stack.Item>
               <div style={{paddingBottom: '15px'}}>
