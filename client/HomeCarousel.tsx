@@ -41,7 +41,7 @@ export const HomeCarousel: React.FC = () => {
                         <img
                             className="d-block w-100"
                             src={slide.image}
-                            alt="slider image"
+                            alt="carousel image"
                             key={i}
                         />
                     </Carousel.Item>
