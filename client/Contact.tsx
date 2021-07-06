@@ -60,17 +60,17 @@ export const Contact: React.FC = () => {
   return (
     <div style={mainDivStyles}>
       <div style={{paddingBottom: '15px', paddingTop: '15px'}}>
-        <Text variant="xLarge" style={{paddingBottom: '25px', fontWeight: 'bold'}}>I am so excited to hear from you!</Text><br/>
+        <Text variant="xLarge" style={{paddingBottom: '25px', fontWeight: 'bold'}} data-testid="excited">I am so excited to hear from you!</Text><br/>
       </div>
       <div style={{paddingBottom: '15px'}}>
-        <Text variant="medium">Are you ready to get beautiful pictures taken? Please don&apos;t hesitate to contact me via my email: info@louisajphotography.com, my instagram - louisajphotography - or the contact box below.</Text>
+        <Text variant="medium" data-testid="info">Are you ready to get beautiful pictures taken? Please don&apos;t hesitate to contact me via my email: info@louisajphotography.com, my instagram - louisajphotography - or the contact box below.</Text>
       </div>
       <TextField label="Name" value={contactName} onChange={(_event, value) => onNameFieldChange(value ?? '')}/>
       <TextField label="Email Address" value={contactEmail} placeholder="name@example.com" onChange={(_event, value) => onEmailFieldChange(value ?? '')} />
       <TextField label="Phone Number" value={contactPhone} placeholder="(---) --- ---" onChange={(_event, value) => onPhoneFieldChange(value ?? '')} />
       <TextField label="Message" value={contactMessage} multiline rows={3} onChange={(_event, value) => onMessageFieldChange(value ?? '')}/>
       <p style={pStyles}>
-        <DefaultButton text="Submit" onClick={onContactSubmitClick} />
+        <DefaultButton text="Submit" onClick={onContactSubmitClick} data-testid="submit"/>
       </p>
       { renderError() }
       <div style={ { display: 'none' } }>
