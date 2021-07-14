@@ -4,7 +4,7 @@ import * as React from 'react';
 
 import { Contact } from './Contact';
 import { Home } from './Home';
-import { Navbar } from './Navbar';
+import { NavBar } from './Navbar';
 import { Portfolio } from './Portfolio';
 
 export const App: React.FC = () => {
@@ -42,7 +42,7 @@ export const App: React.FC = () => {
 
     return (
       <div>
-        <Navbar onHomeClicked={onHomeClicked} onPortfolioClicked={onPortfolioClicked} onContactClicked={onContactClicked}/>
+        <NavBar onHomeClicked={onHomeClicked} onPortfolioClicked={onPortfolioClicked} onContactClicked={onContactClicked}/>
         {renderContent()}
       </div>
     )

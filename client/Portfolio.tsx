@@ -38,62 +38,62 @@ export const Portfolio: React.FC = () => {
     <div>
       <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
         <Stack.Item>
-          <img src={Jen} height="500"></img>
+          <img src={Jen}></img>
         </Stack.Item>
         <Stack.Item>
-          <img src={Carolina} height="500"></img>
+          <img src={Carolina}></img>
         </Stack.Item>
         <Stack.Item>
-          <img src={GilmoreGirls} height="500"></img>
-        </Stack.Item>
-      </Stack>
-      <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
-        <Stack.Item>
-          <img src={PhiliChrisHair} height="500"></img>
-        </Stack.Item>
-        <Stack.Item>
-          <img src={Camille} height="500"></img>
-        </Stack.Item>
-        <Stack.Item>
-          <img src={RuthElianaWalk} height="500"></img>
+          <img src={GilmoreGirls}></img>
         </Stack.Item>
       </Stack>
       <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
         <Stack.Item>
-          <img src={MartaAlan} height="500"></img>
+          <img src={PhiliChrisHair}></img>
         </Stack.Item>
         <Stack.Item>
-          <img src={Eliana} height="500"></img>
+          <img src={Camille} ></img>
         </Stack.Item>
         <Stack.Item>
-          <img src={Phil} height="500"></img>
-        </Stack.Item>
-      </Stack>
-      <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
-        <Stack.Item>
-          <img src={PhilChristoph} height="385"></img>
-        </Stack.Item>
-        <Stack.Item>
-          <img src={GirlsGraduate} height="385"></img>
+          <img src={RuthElianaWalk}></img>
         </Stack.Item>
       </Stack>
       <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
         <Stack.Item>
-          <img src={JorgeMartaAlan} height="340"></img>
+          <img src={MartaAlan}></img>
         </Stack.Item>
         <Stack.Item>
-          <img src={JessicaCamille} height="340"></img>
+          <img src={Eliana}></img>
+        </Stack.Item>
+        <Stack.Item>
+          <img src={Phil}></img>
         </Stack.Item>
       </Stack>
       <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
         <Stack.Item>
-          <img src={Marta} height="500"></img>
+          <img src={PhilChristoph} ></img>
         </Stack.Item>
         <Stack.Item>
-          <img src={JenGrad} height="500"></img>
+          <img src={GirlsGraduate} ></img>
+        </Stack.Item>
+      </Stack>
+      <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
+        <Stack.Item>
+          <img src={JorgeMartaAlan}></img>
         </Stack.Item>
         <Stack.Item>
-          <img src={CarolinaMom} height="500"></img>
+          <img src={JessicaCamille}></img>
+        </Stack.Item>
+      </Stack>
+      <Stack horizontal horizontalAlign="center" styles={stackStyles} tokens={itemAlignmentsStackTokens}>
+        <Stack.Item>
+          <img src={Marta} ></img>
+        </Stack.Item>
+        <Stack.Item>
+          <img src={JenGrad} ></img>
+        </Stack.Item>
+        <Stack.Item>
+          <img src={CarolinaMom}></img>
         </Stack.Item>
       </Stack>
     </div>
